@@ -1,0 +1,10 @@
+path: .
+train: train/images
+val: valid/images
+test: test/images
+nc: 4
+names:
+  0: Nail_psoriasis
+  1: SJS-TEN
+  2: acne
+  3: vitiligo

@@ -1,0 +1,33 @@
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# YOLO caches
+*.cache
+labels.cache
+
+# Training runs and tracking
+runs/
+wandb/
+weights/
+*.pt
+*.pth
+*.onnx
+
+# Environments
+.env
+.venv
+env/
+venv/
