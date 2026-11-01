@@ -1,0 +1,36 @@
+{
+  "classes": [
+    "Atopic Dermatitis",
+    "Contact Dermatitis",
+    "Eczema",
+    "Scabies",
+    "Seborrheic Dermatitis",
+    "Tinea Corporis"
+  ],
+  "originals": {
+    "train": 1090,
+    "valid": 229,
+    "test": 234
+  },
+  "duplicates_or_unlabeled_dropped": 0,
+  "instances_clipped_to_image_bounds": 321,
+  "instances_removed_outside_image_bounds": 0,
+  "augmented": {
+    "train": 2910,
+    "valid": 771,
+    "test": 766
+  },
+  "augmented_train": 2910,
+  "total": 6000,
+  "target_per_split": {
+    "train": 4000,
+    "valid": 1000,
+    "test": 1000
+  },
+  "per_split": {
+    "train": 4000,
+    "valid": 1000,
+    "test": 1000
+  },
+  "evaluation_note": "Validation and test include augmented variants of images from their respective source splits; scores are not equivalent to evaluation on independent original images."
+}
