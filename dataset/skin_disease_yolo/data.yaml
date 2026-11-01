@@ -1,0 +1,9 @@
+# Skin Disease COCO->YOLO converted dataset
+# Upload skin_disease_yolo/ to Kaggle then update path below
+path: .
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 19
+names: ['acne', 'Darier_s-Disease', 'Epidermolysis-Bullosa-Pruriginosa', 'Hailey-Hailey-Disease', 'Hemangiome', 'Impetigo', 'Leishmanios', 'Lupus-Erythematosus-Chronicus-Discoides', 'Melanoma', 'Molluscum-Contagiosum', 'Porokeratosis', 'Psoriasis', 'Tinea-Corporis', 'Tungiasis', 'basal-cell-carcinoma', 'eczema', 'lichen', 'nevus', 'normal skin']
