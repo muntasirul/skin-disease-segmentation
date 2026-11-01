@@ -31,3 +31,8 @@ weights/
 .venv
 env/
 venv/
+
+# Archives
+*.zip
+*.tar
+*.gz
